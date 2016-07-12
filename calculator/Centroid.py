@@ -16,7 +16,8 @@ class Centroid:
             points.append(p)
 
         self.points = points
-        
+    
+    """计算平面点坐标集合中心（非质心）"""
     def calculate(self):
         mx = 0
         my = 0
