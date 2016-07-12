@@ -22,7 +22,8 @@ class Centroid:
         mx = 0
         my = 0
         ma = 0
-
+        
+        """sigma"""
         for idx in range(len(self.points)-1):
             p1 = self.points[idx]
             p2 = self.points[idx+1]
